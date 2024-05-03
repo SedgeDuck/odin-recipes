@@ -1,22 +1,41 @@
+/* Main and Global Styles*/
+
 * {
-  background-color: #e9c5ab;
+  background-color: #000000;
+  color: aqua;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+/*img {
+  width: 100%;
+}*/
+
+figcaption {
+  font-size: x-small;
+  padding-top: 3px;
 }
 
 h1 {
   font-weight: bold;
   text-align: center;
-  background-color: #c7bca6;
   color: #5d8a75;
+  width: 40vw;
   padding: 20px;
 }
 
-.recipe-title,
 h2 {
-  font-family: "Courier New", Courier, monospace;
   text-decoration: overline underline;
   text-align: center;
+  color: black;
 }
 
 h2 {
@@ -24,13 +43,7 @@ h2 {
 }
 
 a {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 24px;
-}
-
-figcaption {
-  font-size: small;
-  text-align: center;
+  font-size: x-large;
 }
 
 .blurb {
@@ -39,13 +52,19 @@ figcaption {
   background-color: #9ca789;
 }
 
-/* #ingredients {
-  background-color: #c7bca6;
-} can't use div effectively yet */
+/* Recipe Pages */
+
+.recipe-title {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
 
 .recipe-img {
-  height: auto;
-  width: 60%;
-  display: block;
+  width: 40vw;
   margin: auto;
+}
+
+.recipe-component {
+  display: flex;
 }
