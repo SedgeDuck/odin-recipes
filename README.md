@@ -1,3 +1,3 @@
-# odin-recipes
+# recipe-book
 
-recipe dump
+recipe dump for real this time
